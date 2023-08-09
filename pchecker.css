@@ -1,0 +1,19 @@
+body {
+    background-color: #A908F4 ;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #1e1e1e;
+}
+
+.container {
+    width: 961px;
+    height: 637px;
+    background-color: #b640e0;
+    margin: auto;
+    border-radius: 30px;
+}
