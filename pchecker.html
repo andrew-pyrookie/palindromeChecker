@@ -9,7 +9,22 @@
 <body>
     <h2>Palindrome Checker</h2>
     <div class="container">
-        <p>Checking</p>
+        <p class="instruction">Checking tool that is designed to determine whether a given input (usually a string of characters) is a palindrome or not.<br>
+
+           <span class="mini">Enter in the search box below to check.</span>
+        </p>
+        <div class="form">
+            <div class="input">
+                <input type="text" id="inputWord"
+                placeholder="Enter word to check ">
+                <button onclick="myfunction()">submit</button>
+            </div>
+            
+        </div>
+        <div class = "results">
+            <p id="result"></p>
+        </div>
     </div>
+    <script src="pchecker.js"></script>
 </body>
 </html>
