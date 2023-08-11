@@ -101,6 +101,20 @@ button {
 
 }
 @media screen and (max-width: 960px){
+    button {
+        width: 30%;
+        height: 15%;
+        margin: auto;
+        font-size: 12px;
+    }
+
+    input {
+        width: 20%;
+        margin-top: 70%;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width: 960px){
     .input,input{
         width:auto;
         height: auto;
@@ -120,5 +134,21 @@ button:hover {
     margin: auto;
     margin-top: -20%;
     border-radius: 20px;
+    display: hidden;
 
+}
+
+#result {
+    
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 960px){
+    .results{
+        width:auto;
+        height: auto;
+        margin: 0;
+    }
 }

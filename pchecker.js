@@ -15,6 +15,7 @@ function myfunction(){
         resultElement.textContent = "Please enter a word to check.";
 
     } else {
+        document.getElementById("result").style.display = "block";
         const isPalindromeResult = isPalindrome(inputWord);
         resultElement.textContent = isPalindromeResult
             ? "The word is a palindrome!"
